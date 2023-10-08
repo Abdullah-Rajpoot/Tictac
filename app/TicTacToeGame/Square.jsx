@@ -1,8 +1,9 @@
 import React from 'react'
-
-const Square = (props) => {
+import Rood from './rood';
+const Square = ({onClick,value}) => {
   return (
     <div
+    onClick={onClick}
      style={{ border:"1px solid", 
      height: "100px", width: "100%",
       display: "flex",
@@ -10,7 +11,7 @@ const Square = (props) => {
       alignItems: "center", 
     }} 
      className='square'>
-        <h5>{props.value}</h5>
+        <h5>{value}</h5>
     </div>
   )
 }

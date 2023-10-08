@@ -1,10 +1,12 @@
+
+import Rood from "./TicTacToeGame/rood";
 import "./globals.css"
 
-import Board from "./TicTacToeGame/Board";
+
 
 function App(){
   return <div className="App">
-    <Board/>
+    <Rood/>
   </div>
 }
 export default App;
