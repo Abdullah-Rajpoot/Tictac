@@ -6,6 +6,7 @@ import "./globals.css"
 
 function App(){
   return <div className="App">
+    hello
     <Rood/>
   </div>
 }
