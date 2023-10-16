@@ -6,8 +6,8 @@ import "./globals.css"
 
 function App(){
   return <div className="App">
-    hello
     <Rood/>
+    hi
   </div>
 }
 export default App;
